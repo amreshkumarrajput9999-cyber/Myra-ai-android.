@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.MyraAI" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/myra_dark_bg</item>
+        <item name="android:navigationBarColor">@color/myra_dark_bg</item>
+        <item name="android:windowBackground">@color/myra_dark_bg</item>
+    </style>
+
+    <!-- Translucent HUD Overlay for Lock Screen & Home Screen Assistant -->
+    <style name="Theme.MyraAI.Translucent" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.82</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

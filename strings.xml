@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MYRA AI</string>
+    <string name="tagline">Your Personal Intelligence</string>
+    <string name="wake_word_service_title">MYRA AI is listening</string>
+    <string name="wake_word_service_desc">Say "Hey MYRA" or tap to talk</string>
+    <string name="action_stop_service">Stop</string>
+    <string name="action_talk_now">Talk Now</string>
+    <string name="widget_title">MYRA Voice</string>
+    <string name="widget_tap_hint">Tap to activate MYRA</string>
+    <string name="shortcut_talk_short">Talk</string>
+    <string name="shortcut_talk_long">Speak to MYRA AI</string>
+</resources>

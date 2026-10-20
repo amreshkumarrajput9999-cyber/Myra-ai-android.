@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="talk_to_myra"
+        android:enabled="true"
+        android:icon="@drawable/ic_myra_mic"
+        android:shortcutShortLabel="@string/shortcut_talk_short"
+        android:shortcutLongLabel="@string/shortcut_talk_long">
+        <intent
+            android:action="com.myra.ai.ACTION_VOICE_PROMPT"
+            android:targetPackage="com.myra.ai"
+            android:targetClass="com.myra.ai.VoiceInteractionActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
